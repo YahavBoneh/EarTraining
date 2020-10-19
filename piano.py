@@ -18,7 +18,6 @@ class Piano:
             accidental = random.choice(['b', ''])
         else:
             accidental = random.choice(['b', '#', ''])
-        print(letter + accidental + str(octave_num))
         return letter + accidental + str(octave_num)
 
     def simplify_note(self, note_str):
